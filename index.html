@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+     <link rel="stylesheet" type="text/css" href="index.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <div class="header">
+</div>
+<nav>
+  <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="wheretogo.html">Where to Go?</a></li>
+  <li><a href="contact.html">Accomondation</a></li>
+  <li><a href="about.html">Transport</a></li>
+    <li><a href="about.html">About US & Contact</a></li>
+</ul>
+</nav>
+
+<body>
+
+<div class="content section" style="max-height:500px;">
+
+<img class="mySlides" src="https://i.imgur.com/GyTtrOB.jpg" style="width:100%">
+<img class="mySlides" src="https://i.imgur.com/YgeFiDa.jpg" style="width:100%">
+<img class="mySlides" src="https://i.imgur.com/uWhSoTN.jpg" style="width:100%">
+<img class="mySlides" src="https://i.imgur.com/0ca6MyJ.jpg" style="width:100%">
+</div>
+
+<section class="whatsnewheader">
+        <h1><span  class="whatsnew">WHAT'S NEW</span></h1>
+        <p>Be it first time visitors or seasoned travellers, our calendar is packed with activities so that there is always something new to discover.</p>
+      </section>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 6000);
+}
+</script>
+
+</body>
+
+  <div class="footer">
+  <p>Footer</p>
+</div>
+</html>
