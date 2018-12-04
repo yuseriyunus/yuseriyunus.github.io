@@ -67,7 +67,7 @@ All images Retrieved 23/10/2018 from:
 1.	http://sini.com.my/business/lgmtravelDetailview/1000005326
 2.	http://www.projektravel.com/2018/07/lawati-7-lokasi-air-terjun-menarik-di.html
 3.	https://lyfandspice.com/2017/05/08/hiking-bukit-keluang/
-Slide show javascript tutorial from w3schools.com retrieved 21/10/18 from : https://www.w3schools.com/w3css/w3css_slideshow.asp
+4.  Slide show javascript tutorial from w3schools.com retrieved 21/10/18 from : https://www.w3schools.com/w3css/w3css_slideshow.asp
 
 
 --------------------------------------------------------------------------------------------------------------------------------------
