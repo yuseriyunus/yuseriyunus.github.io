@@ -34,6 +34,10 @@ border-bottom-color: #777CC3;
 
 }
 
+h3{
+  background-color : lightblue;
+}
+
 .indexbody h2{
   text-indent: 100px
 }
