@@ -12,6 +12,16 @@ ul{
     font-family: 'Abel', sans-serif;
 }
 
+h1{
+  font-family: 'Berkshire Swash', cursive;
+  padding: 15px;
+  background-color: lightblue;
+  border-bottom-style: solid;
+  border-bottom-color: #777CC3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
 h2
 {
   font-family: 'Reem Kufi', sans-serif;
