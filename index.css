@@ -1,28 +1,61 @@
 .header {
-  background-image: url("https://i.imgur.com/SHNDoE3.jpg");
-  height: 150px;
+  background-image: url("https://i.imgur.com/YL5SsIy.jpg");
+  height: 400px;
   background-repeat: no-repeat;
   padding: 50px;
-  text-align: center;
   color: white;
   font-size: 30px;
-  font-family:sans-serif;
   background-position: center;
-  border-radius: 25px 25px 0px 0px;
 }
 
+ul{
+    font-family: 'Abel', sans-serif;
+}
 
+h2
+{
+  font-family: 'Reem Kufi', sans-serif;
+  background-color: lightblue;
+  border-bottom-style: solid;
+border-bottom-color: #777CC3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding:10px;
+        border-radius: 15px;
+
+}
+
+.indexbody h2{
+  text-indent: 100px
+}
+
+.indexbody h3{
+  text-align: center;
+  font-family: 'Rancho', sans-serif;
+}
+
+p{
+  font-family: 'Abel', sans-serif;
+}
+
+.para p {
+    text-indent: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 body{
+  position: center;
   width:100%;
   max-width: 1000px;
   border-radius: 25px;
-  background: url(https://i.stack.imgur.com/1voHP.png);
+  width: auto;
+  background: url("https://i.stack.imgur.com/1voHP.png");
   margin: 0 auto;
-  background-color: grey;
-  border: lightblue solid 2px;
+  text-align: center;
 }
 
+
+/* navigation */
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -34,7 +67,6 @@ nav ul {
 
 nav li {
     float: left;
-
 }
 
 nav li a {
@@ -55,27 +87,254 @@ nav .active {
     background-color: #4CAF50;
 }
 
-td {
-    font-size: 15px;
-    font-family: monospace;
-    /* border: 1px solid #dddddd; */
-    text-align: justify;
-    padding: 8px;
+
+
+
+.card {
+  background: white;
+  width: 200px;
+  display: inline-block;
+  height: 30%;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column1 {
+  float: left;
+  width: 245px;
+  padding: 5px;
+}
+
+.indexbody{
+  padding: 10px;
+  width: 100%;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: justify;
 
 }
 
-table img {
-    opacity: 0.3;
-    display: inline-block;
-    margin: 15px;
+.indexbody1{
+  border-radius: 15px;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 
-.footer {
-    left: 10;
-    bottom: 10;
+/* Clear floats after image containers */
+.row1::after {
+  background-color: white;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+/* Accomodation gallery */
+div.gallery {
+    background: white;
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 480px;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+div.gallery:hover {
+    border: 3px solid #777;
+}
+
+div.gallery img {
     width: 100%;
-    border: 2px black;
-    color: black;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
     text-align: center;
+}
+
+/* WTG gallery */
+
+div.gallery_wtg {
+    background: white;
+    height: 450px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 230px;
+    position: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+div.gallery_wtg:hover {
+    border: 1px solid #777;
+}
+
+div.gallery_wtg img {
+    width: 100%;
+    height: 220px;
+}
+
+
+div .footer {
+   width: 100%;
+   height: 100px;
+   background-color: lightblue;
+   color: #f2f2f2;
+   font-size: 15px;
+   padding: 8px ;
+   width: 100%;
+}
+
+
+ul.lower_greek {
+  list-style-image: url("https://i.imgur.com/34SRgTm.png");
+  text-align: left;
+  padding-left: 100px;
+}
+
+
+/* unvisited link */
+.indexbody1 a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+/* visited link */
+.indexbody1 a:visited {
+  color: #6495ED;
+  text-decoration: none;
+}
+
+/* mouse over link */
+.indexbody1 a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* selected link */
+.indexbody1 a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+
+/*edited*/
+div.gallerylist {
+  background: white;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 323px;
+}
+
+div.gallerylist:hover {
+  border: 1px solid #777;
+}
+
+div.gallerylist img {
+  width: 100%;
+  height: 250px;
+}
+
+div.desclist {
+  padding: 15px;
+  text-align: center;
 }
