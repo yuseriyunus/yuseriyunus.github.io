@@ -2,6 +2,10 @@
 <html lang="en" dir="ltr">
   <head>
      <link rel="stylesheet" type="text/css" href="index.css">
+          <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+               <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
     <meta charset="utf-8">
     <title></title>
   </head>
@@ -17,55 +21,98 @@
 </ul>
 </nav>
   <body>
+    <div class="indexbody">
+<div class="para">
+    <p>Malaysia is blessed with a perennial tropical climate and lush greenery that might make Middle Earth look like the Atacama Desert.
+      Locals and foreigners alike flock to the abundance of forest reserves and island getaways to witness the raw beauty of an untamed landscape,
+      so make sure that you introduce your own guests to some of Malaysia’s most stunning natural spots. Here’s a look at nature at its finest all around the country.</p>
+</div>
+    <br>
+    <!-- Slideshow container -->
+    <div class="container">
 
-    <table>
-  <tr>
-    <td><a href="wheretogo_hill.html">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Love_Heart_symbol_square.svg/600px-Love_Heart_symbol_square.svg.png" alt="Hill" style="width:250px;height:250px;float:left;">
-      </a><p>A hill is a landform that extends above the surrounding terrain.
-It often has a distinct summit, although in areas with scarp/dip
-topography a hill may refer to a particular section of flat terrain
-without a massive summit.</p>
-</td>
-</tr>
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <a href="wheretogo_hill.html"><img src="https://i.imgur.com/abVNTDZ.jpgg" style="width:100%"></a>
+    </div>
 
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <a href="wheretogo_beaches.html"><img src="https://i.imgur.com/o5AuAA3.jpg" style="width:100%"></a>
+    </div>
 
-  <tr>
-    <td><a href="wheretogo_island.html">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Love_Heart_symbol_square.svg/600px-Love_Heart_symbol_square.svg.png" alt="Island" style="width:250px;height:250px;float:left;">
-  </a><p>An island or isle is any piece of sub-continental land that is surrounded by water.
-Very small islands such as emergent land features on atolls can be called islets,
-skerries, cays or keys. An island in a river or a lake island may be called an eyot
-or ait, and a small island off the coast may be called a holm.</p>
-</td>
-  </tr>
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <a href="wheretogo_waterfall.html"><img src="https://i.imgur.com/HRuzk56.jpg" style="width:100%"></a>
+    </div>
 
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+        <a href="wheretogo_island.html"><img src="https://i.imgur.com/XbVtq0M.jpg" style="width:100%"></a>
+    </div>
 
-  <tr>
-    <td><a href="wheretogo_beaches.html">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Love_Heart_symbol_square.svg/600px-Love_Heart_symbol_square.svg.png" alt="Beaches" style="width:250px;height:250px;float:left;">
-      </a><p>A beach is a landform alongside a body of water which consists of loose particles.
-The particles composing a beach are typically made from rock, such as sand, gravel, shingle, pebbles.
-The particles can also be biological in origin, such as mollusc shells or coralline algae.<p/>
-</td>
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <a><img src="https://i.imgur.com/ZYr3jDl.jpg" style="width:100%"></a>
+    </div>
 
-  </tr>
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <a><img src="https://i.imgur.com/8kFMfbJ.jpg" style="width:100%"></a>
+    </div>
 
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
 
-  <tr>
-    <td><a href="wheretogo_waterfall.html">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Love_Heart_symbol_square.svg/600px-Love_Heart_symbol_square.svg.png" alt="Waterfall" style="width:250px;height:250px;float:left;">
-      </a>
-<p>A waterfall is a place where water flows over a vertical drop or a
-series of steep drops in the course of a stream or river.
-Waterfalls also occur where meltwater drops over the edge of a tabular iceberg or ice shelf.</p>
-</td>
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://i.imgur.com/abVNTDZ.jpg" style="width:100%" onclick="currentSlide(1)"
+        alt= "A hill is a landform that extends above the surrounding terrain.
+              It often has a distinct summit, although in areas with scarp/dip
+              topography a hill may refer to a particular section of flat terrain
+              without a massive summit."></div>
 
-  </tr>
-</table>
+      <div class="column">
+        <img class="demo cursor" src="https://i.imgur.com/o5AuAA3.jpg" style="width:100%" onclick="currentSlide(2)"
+        alt="A beach is a landform alongside a body of water which consists of loose particles.
+            The particles composing a beach are typically made from rock, such as sand, gravel, shingle, pebbles.
+            The particles can also be biological in origin, such as mollusc shells or coralline algae." ></div>
+
+      <div class="column">
+        <img class="demo cursor" src="https://i.imgur.com/HRuzk56.jpg" style="width:100%" onclick="currentSlide(3)"
+        alt="A waterfall is a place where water flows over a vertical drop or a
+             series of steep drops in the course of a stream or river.
+             Waterfalls also occur where meltwater drops over the edge of a tabular iceberg or ice shelf."></div>
+
+      <div class="column">
+        <img class="demo cursor" src="https://i.imgur.com/XbVtq0M.jpg" style="width:100%" onclick="currentSlide(4)"
+        alt="An island or isle is any piece of sub-continental land that is surrounded by water.
+             Very small islands such as emergent land features on atolls can be called islets,
+             skerries, cays or keys. An island in a river or a lake island may be called an eyot
+             or ait, and a small island off the coast may be called a holm."></div>
+
+      <div class="column">
+         <img class="demo cursor" src="https://i.imgur.com/ZYr3jDl.jpg" style="width:100%" onclick="currentSlide(5)"
+          alt="Work in Progress. Comming Soon!"></div>
+
+      <div class="column">
+          <img class="demo cursor" src="https://i.imgur.com/8kFMfbJ.jpg" style="width:100%" onclick="currentSlide(6)"
+          alt="Work in Progress. Comming Soon!"></div>
+
+    </div>
+  </div>
+</br>
+
+</div>
+  <script src="index.js"></script>
   </body>
-
   <div class="footer">
-  <p>Footer</p>
+    <p>Brofist® 2018</p>
+  </div>
+
 </div>
 </html>
